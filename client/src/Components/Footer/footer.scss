@@ -1,0 +1,155 @@
+@import "../../Colors/colors";
+.footer {
+  border-top: 2px solid $azul;
+  border-bottom: 2px solid $azul;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  .title-col {
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    font-family: Nunito;
+    font-size: 24px;
+    text-align: left;
+    line-height: 24px;
+    color: $azul;
+  }
+  p {
+    cursor: pointer;
+    font-family: Nunito;
+    font-size: 14px;
+    letter-spacing: normal;
+    text-align: left;
+    line-height: 21px;
+    &:hover{
+      color: $amarillo;
+      translate: 5px;
+    }
+  }
+  
+.title-swap {
+  font-size: 14px;
+  text-align: right;
+  color: $azul;
+}
+.logo-swap {
+  margin-top: 2vh;
+  width: 90px;
+}
+.square-logo {
+  margin-top: 3vh;
+ cursor: pointer;
+  width: 300px;
+  margin-bottom: 1vh;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  max-width: 375px;
+  .iconStyle {
+    width: 40px;
+    height: 40px;
+    border: $azul;
+    border-radius: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $azul;
+    margin-right: 20px;
+  }
+  
+  .iconInnerStyle {
+    color: white;
+    font-size: 18px;
+    vertical-align: middle;
+  }
+}
+.rights {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rights-text {
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+}
+
+}
+.logos-footer{
+
+  .lanzadera-img {
+    margin-right: 5vw;
+    margin-bottom: 2vh;
+    width: 12.5vw;
+  }
+  
+  .minerva-img {
+    width: 12vw;
+    margin-bottom: -20vh;
+  }
+  
+  .p-footer {
+    margin-bottom: -3vh;
+    margin-right: 0.6vw;
+    color: $azul;
+  }
+  .logos{
+    padding: 35px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .footer {
+    text-align: center;
+    .col-1{
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .col-2{
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .col-3{
+      text-align: center;
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .low-footer{
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+    align-items: start;
+    justify-content: start;
+  }
+  .logos-footer{
+    .logos{
+      align-items: center;
+      justify-content: center;
+      img{
+        width: 60%;
+      }
+     }
+  }
+    .p-footer{
+      padding-bottom: 5px;
+      text-align: center;
+    }
+    .minerva-img{
+      padding-bottom: 50px;
+    }
+}
+
+
+

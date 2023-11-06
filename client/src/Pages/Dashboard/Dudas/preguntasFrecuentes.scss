@@ -1,0 +1,27 @@
+@import "../../../Colors/colors";
+//estilos encabezados
+.h2-head-faqs{
+  font-size: 60px;
+  text-align: center;
+  color: $azul;
+  margin-top: 5vh;
+}
+
+//estilos contenedores
+.cont-accord-faqs{
+  padding: 5vh 15vw;
+  
+}
+
+.head-accord-faqs{ 
+  font-weight: bold;
+  color: $azul;
+  font-size: 20px;
+  padding: 1vw;
+}
+
+@media screen and (max-width: 1492px){
+  .cont-accord{
+    padding: 50vw;
+  }
+}

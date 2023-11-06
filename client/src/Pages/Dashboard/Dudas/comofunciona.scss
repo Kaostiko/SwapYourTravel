@@ -1,0 +1,110 @@
+@import "../../../Colors/colors";
+.fondoCF {
+  background-color: #e7f4f6;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.firstRow {
+  text-align: center;
+  padding-top: 50px;
+  h1 {
+    font-size: 60px;
+    color: $azul;
+    font-weight: 700;
+  }
+}
+
+
+
+.cardCF {
+  background-color: white;
+  border-radius: 100px !important;
+  padding: 20px;
+  opacity: .9;
+    height: auto;
+    box-shadow: 10px 0px 41px #c8c8c8 !important;
+  display: flex;
+  align-items: center;
+  margin: 2vh 0vw;
+  .hgroupCF {
+    padding: 40px 40px 0px 40px;
+    text-align: center;
+    color: #2d78a1;
+    border-bottom: 1px solid $azul;
+    margin-bottom: 3vh;
+    h4{
+      font-size: 16px;
+      letter-spacing: 2px;
+    }
+    h2{
+      font-weight: 700;
+    }
+    h6{
+      margin-bottom: 3vh;
+      font-size: 22px;
+      font-style: normal;
+      color: $azul;
+    }
+  }
+  
+  .btnCF {
+    background-color: $amarillo !important;
+    color: $azul;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 120%;
+    border: 1px solid transparent;
+    border-radius: 25px !important;
+    padding: 15px;
+    width: 150px;
+    &:hover {
+      background-color: $azul !important;
+      color: white !important;
+      transition: 200ms ease-in-out;
+    }
+  }
+}
+
+.spanWord {
+  font-weight: bold;
+  color: #fdcb18;
+  font-size: 42px;
+
+}
+.spanWord2 {
+  font-weight: bold;
+  color: $azul-cielo;
+  font-size: 42px;
+}
+
+.colored-list {
+  list-style-type: none;
+  counter-reset: list-counter;
+  word-wrap: break-word;
+  li {
+    &::before{
+    content: counter(list-counter) ". "; // Añade un punto y un espacio después del número
+    counter-increment: list-counter;
+    color:  $azul-cielo;
+    font-weight: 800;
+    font-size: 1.4em;
+  }
+   
+}
+
+
+.colored-list li::before {
+  content: counter(list-counter);
+  counter-increment: list-counter;
+  color: #2d78a1;
+  margin-right: 8px; /* Espacio entre el número y el texto */
+}
+}
+
+@media screen and (max-width: 992px){
+  .btnCF {
+    font-size: 23px !important;
+  }
+}

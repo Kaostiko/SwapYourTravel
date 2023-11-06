@@ -1,0 +1,193 @@
+.infoUser {
+  background-color: #89c9d3c4;
+  height: auto;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.screenUser {
+  height: auto;
+  min-height: 100vh;
+  background-color: #89c9d346;
+}
+
+.ajusteSymbol{
+  height: 30px;
+  cursor: pointer;
+}
+
+.userButtons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10vh 5vw 10vh 5vw;
+  gap: 40px;
+}
+
+//estilos de botones version movil
+.responsiveButtons{
+  display: none;
+}
+
+.Buttonn {
+  background-color: #005a8d !important;
+  border-radius: 25px !important;
+}
+.Buttonn:hover {
+  background-color: #ffc700 !important;
+  border: 1px solid #ffc700 !important;
+  color: black !important;
+  font-weight: bold !important;
+}
+
+.all-info-user {
+  // margin-top: 15vh;
+  // h2 {
+  //   font-size: 40px;
+  // }
+  // p {
+  //   font-size: 20px;
+  //   a {
+  //     text-decoration: none;
+  //   }
+  // }
+ 
+  height: auto;
+  justify-content: center;
+}
+.corazon {
+  width: 30px;
+}
+
+.formEdit{
+  background-color: #A5D6DE;
+  width: 60%;
+  margin: 25px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: #005a8d 5px 5px 5px;
+  padding: 5vw;
+}
+
+.formButton{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+//estilos para admin
+.infoAdmin{
+  background-color: #E7EBEC;
+  height: auto;
+  text-align: center;
+  padding-top: 2vh;
+}
+.buttonn-admin{
+  background-color: #005a8d !important;
+  border-radius: 25px !important;
+}
+.buttonn-admin-red{
+  background-color: #8d0000 !important;
+  border-radius: 25px !important;
+  border: none !important;
+}
+.buttonn-admin-green{
+  background-color: #4CAF50 !important;
+  border-radius: 25px !important;
+  border: none !important;
+}
+.buttonn-admin:hover {
+  background-color: #ffc700 !important;
+  border: 1px solid #ffc700 !important;
+  color: black !important;
+  font-weight: bold !important;
+}
+.buttonn-admin-red:hover{
+  background-color: #ffc700 !important;
+  border: 1px solid #ffc700 !important;
+  color: black !important;
+  font-weight: bold !important;
+}
+.buttonn-admin-green:hover{
+  background-color: #ffc700 !important;
+  border: 1px solid #ffc700 !important;
+  color: black !important;
+  font-weight: bold !important;
+}
+
+    // Sección estadísticas
+    .stats-section{
+      padding: 5vw;
+      color: #005a8d;
+      h4{
+        font-weight: bold;
+      }
+    }
+   
+//---------------------------
+
+@media (max-width: 765px) {
+  .userButtons {
+    display: none;
+  }
+  .responsiveButtons{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2vh;
+    img{
+      filter: invert(1);
+    }
+  }
+  
+
+  .infoAdmin{
+    width: 100%; // Ancho del sidebar en pantallas pequeñas (100% del ancho de la ventana)
+    height: auto; // Altura automática (crece según el contenido)
+    padding: 0;
+    h2,h1{
+      display: none;
+    }
+  }
+
+  .infoUser{
+    width: 100%; // Ancho del sidebar en pantallas pequeñas (100% del ancho de la ventana)
+    height: auto; // Altura automática (crece según el contenido)
+    padding: 0;
+    h2,h1{
+      display: none;
+    }
+  }
+
+  .screenUser{
+    height: auto;
+    min-height: 0;
+    padding: 0;
+  }
+  .ajusteSymbol{
+    display: none;
+  }
+ 
+ //formulario de edicion de usuario
+ .formEdit{
+  width: 100vw;
+ }
+ 
+ .form-inputs{
+  display: flex;
+  flex-direction: column;
+ }
+}
+
+@media (max-width: 1200px) {
+  .userButtons {
+    padding: 10vh 2vw;
+  }
+  
+}
+@media (max-width: 945px) {
+  .userButtons {
+    padding: 10vh 2vw;
+  }
+  
+}

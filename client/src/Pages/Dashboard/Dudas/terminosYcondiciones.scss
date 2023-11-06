@@ -1,0 +1,40 @@
+@import "../../../Colors/colors";
+
+//estilos encabezados
+.h2-head{
+  font-size: 50px;
+  text-align: center;
+  color: $azul;
+  margin-top: 5vh;
+  font-weight: 700;
+}
+
+//estilos contenedores
+.cont-accord{
+  padding: 5vh 15vw;
+  font-family: 'Nunito Sans', sans-serif;
+  
+}
+
+.intro{
+  p{
+    font-size: 16px;
+  }
+  
+}
+
+.head-accord{ 
+  font-weight: bold;
+  color: $azul;
+  font-size: 20px;
+  padding: 1vw;
+}
+
+//estilos de las secciones
+.section-1{
+  padding: 0vh 5vw;
+}
+.section-2{
+  padding: 0vh 5vw;
+}
+

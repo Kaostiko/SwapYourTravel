@@ -1,0 +1,338 @@
+@import "../../../Colors/colors";
+
+.homeSection1{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  background: linear-gradient(to left,  $azul, $home-h5-h4);
+  padding: 0vh 15% 0vh 15% ;
+  flex-wrap: wrap;
+  gap: 3vh;
+  img{
+    width: 400px;
+  }
+  .homeCol1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .homesubCol1{
+    background-color: white;
+    border-radius: 60px;
+    align-items: center;
+    text-align: center;
+    padding: 3vh 4vw 3vh 4vw;
+    width: 30vw;
+    transition: 0.6s;
+    h2{
+      color:  $azul;
+      font-weight: bold;
+    }
+    h5{
+      color: $home-h5-h4;
+      font-weight: bold;
+    }
+    .boton{
+      background-color: $amarillo;
+      color: $azul;
+      border: none;
+      border-radius: 50px;
+      font-weight: bold;
+      width: 160px;
+      height: 44px;
+      font-size: 1.5rem;
+      transition: 0.4s;
+    }
+    .boton:hover{
+      background-color: $azul;
+      color: white;
+    }
+  }
+  .homesubCol1:hover{
+    transform: translateY(-10px)
+  }
+  
+}
+.homeSubSection4Col2{
+  justify-content: center;
+  align-items: center;
+}
+.homeSection2{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  padding: 8vh 0vw 8vh 0vw ;
+  flex-wrap: wrap;
+  gap: 3vh;
+  .azulAmarillo{
+    color:  $home-h5-h4;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.4s;
+  }
+  .azulAmarillo:hover{
+    color: $amarillo;
+  }
+  .homeSectionCol1{
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     h2{
+      color:  $azul;
+      font-weight: bold;
+      font-size: 40px;
+    }
+    h4{
+      font-size: 20px;
+      color: $home-h5-h4;
+      font-weight: bold;
+    }
+    .homeSection2card{
+      width: 99%;
+      justify-content: center;
+    }
+  }
+  .divHomeSubSection1{
+    padding: 0vh 9% 0vh 9%;
+  }
+  .homeSubSection1{
+    display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  background: linear-gradient(to left,  $azul, $home-h5-h4);
+  padding: 0vh 15% 0vh 15% ;
+  flex-wrap: wrap;
+  gap: 3vh;
+  border-radius: 25px;
+  .homeSubCol1{
+    justify-content: center;
+     align-items: center;
+     display: flex;
+     text-align: center;
+     flex-direction: column;
+     color: white;
+     padding: 4vh;
+     gap: 2vh;
+  }
+  .botonSubSection1{
+    background-color: $amarillo;
+      color: $azul;
+      border: none;
+      font-weight: bold;
+      width: 150px;
+      height: 44px;
+      font-size: 1.5rem;
+      transition: 0.4s;
+  }
+  .botonSubSection1:hover{
+    background-color: white;
+    color: $amarillo;
+  }
+  }
+}
+.homeSection3{
+  padding: 0vh 5% 4vh 5%;
+  justify-content: center;
+
+  .iconosHome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 220px;
+    img{
+      width: 80px;
+      height: 70px;
+    }
+    a{
+      padding-top: 10px;
+      font-weight: 800;
+      font-size: 17.929px;
+      color: $azul;
+      font-weight: bold;
+      text-decoration: none;
+      text-align: center;
+    }
+    a:hover{
+      color: $amarillo;
+    }
+  }
+}
+.homeSection4{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  background: linear-gradient(to left,  $azul, $home-h5-h4);
+  padding: 15vh 10% 15vh 10% ;
+  flex-wrap: wrap;
+  
+    .homeSubSection4Col1{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 60px;
+    align-items: center;
+    text-align: center;
+    padding: 3vh 4vw 3vh 4vw;
+    width: 30vw;
+    gap: 3vh;
+    transition: 0.6s;
+    h2{
+      color:  $azul;
+      font-weight: bold;
+    }
+    h4{
+      color: $home-h5-h4;
+      font-weight: bold;
+    }
+    .botonHomeSection4{
+      background-color: $amarillo;
+      color: $azul;
+      border: none;
+      border-radius: 50px;
+      font-weight: bold;
+      width: 150px;
+      height: 44px;
+      font-size: 1.5rem;
+      transition: 0.4s;
+    }
+    .botonHomeSection4:hover{
+      background-color: $azul;
+      color: white;
+    }
+    }
+    .homeSubSection4Col1:hover{
+      transform: translateY(-10px)
+    }
+}
+.homeSection5{
+  justify-content: center;
+  padding: 10vh 5vw 10vh 5vw;
+  .iconosHome2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 251px;
+    h5{
+      padding: 15px;
+      color:  $azul;
+      font-weight: bold;
+    }
+    img{
+      width: 80px;
+      height: 70px;
+    }
+  }
+}
+
+.homeSubSection5{
+  justify-content: space-evenly;
+}
+
+.homeSection6{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  background: linear-gradient(to left,  $azul, $home-h5-h4);
+  padding: 5vh 15% 5vh 15% ;
+  .carouselHomeP{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 25px;
+    .carouselHome{
+      background-color: white;
+      border-radius: 25px;
+      padding: 4vh 20vw 4vh 20vw;
+    }
+  }
+}
+.carousel-control-next{
+  display: none !important;
+}
+.carousel-control-prev{
+ display: none !important;
+}
+//----------------------
+
+@media screen and (max-width: 1200px){
+  .homeSection1{
+    padding: 3vh 5vw 0vh 5vw;
+    .homesubCol1{
+      width: 70vw;
+    }
+  }
+  .homeSection2{
+    padding: 8vh 0vw 8vh 0vw ;
+  }
+  
+  
+}
+@media screen and (max-width: 992px){
+  .homeSection4{
+    padding: 8vh 5% 8vh 5% ;
+    flex-wrap: wrap;
+    justify-content: center;
+    .homeSubSection4Col1{
+       width: 80vw;
+    }
+  }
+}
+ @media screen and (max-width: 783px){
+  .homeSection4{
+    padding: 8vh 5% 8vh 5% ;
+    flex-wrap: wrap;
+    justify-content: center;
+    .homeSubSection4Col1{
+       width: 80vw;
+    }
+  }
+  .homeSection6{
+    .carouselHomeP{
+      .carouselHome{
+        padding: 4vh 5vw 4vh 5vw;
+      }
+    }
+  }
+} 
+@media screen and (min-width: 1200px){
+  .homeSection5{
+    justify-content: space-evenly;
+  }
+}
+@media screen and (max-width: 600px){
+  .homeSection1{
+    .homeCol1{
+      img{
+        width: 300px;
+      }
+    }
+  }
+  .homeSection5{
+    align-items: center;
+    flex-direction: column;
+  }
+  .homeSubSection5{
+    flex-direction: column;
+    align-items: center;
+  }
+  .homeSection6{
+    .carouselHomeP{
+      .carouselHome{
+        padding: 4vh 5vw 4vh 5vw;
+      }
+    }
+  }
+  
+  
+}

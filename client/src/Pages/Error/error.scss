@@ -1,0 +1,32 @@
+.fondoError{
+  height: 50vh;
+  text-align: center;
+  font-weight: bold;
+  padding: 150px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/assets/images/logo-cuadrado.png");
+  // background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.marcoError{
+  background-color: rgba(255, 255, 255, 0.836);
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.Buttonn {
+  background-color: #005a8d !important;
+  border-radius: 25px !important;
+}
+.Buttonn:hover {
+  background-color: #ffc700 !important;
+  color: black !important;
+}

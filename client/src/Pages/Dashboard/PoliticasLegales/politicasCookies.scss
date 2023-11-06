@@ -1,0 +1,21 @@
+.politicaCookiesPadre{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10vh 15vw 10vh 15vw !important;
+}
+.cookiesTitle{
+  color:  #005a8d;
+  text-align: center;
+  h1{
+   font-size: 50px; 
+   font-weight: 700
+  }
+  
+}
+.coookiesHijo2{
+  p{
+    word-wrap: break-word;
+  }
+}
